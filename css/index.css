@@ -30,22 +30,27 @@ footer {
 .nav-items {
   color: #fefefe;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 4px;
-	text-transform: uppercase;
-	display: none;
+  text-transform: uppercase;
+  display: none;
 }
 
 .show {
-	display: inline;
+  display: inline;
 }
 
 .nav-expander {
 	font-size: 20px;
-	margin: 0 8px;
-	display: inline;
+	color: #fefefe;
+  margin: 0 8px;
+  display: inline;
 }
 
 .closed {
-	transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.info {
+	color: rgb(252, 203, 88);
 }
