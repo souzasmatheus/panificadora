@@ -1,0 +1,36 @@
+body {
+	background-color: #f3bf83;
+}
+
+header {
+  padding: 10px 25px;
+	background-color: #9b363a;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+nav {
+	align-self: center;
+}
+
+footer {
+	padding: 10px 25px;
+	background-color: #9b363a;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.logo {
+	width: 25%;
+	display: inline;
+}
+
+.nav-items {
+	color: #fefefe;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 0 4px;
+	text-transform: uppercase;
+}
