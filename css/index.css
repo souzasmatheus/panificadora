@@ -62,3 +62,7 @@ h2 {
 	background-image: linear-gradient(#F3BF83, #9B363A);
 	padding: 25px 25px;
 }
+
+.main-img {
+	width: 100%;
+}
