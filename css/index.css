@@ -23,6 +23,7 @@ footer {
 
 h2 {
 	margin: 0;
+	color: rgb(224, 222, 218);
 }
 
 .logo {
@@ -31,7 +32,7 @@ h2 {
 }
 
 .nav-items {
-  color: #fefefe;
+  color: rgb(224, 222, 218);
   text-decoration: none;
   font-size: 16px;
   margin: 0 4px;
@@ -45,7 +46,7 @@ h2 {
 
 .nav-expander {
 	font-size: 20px;
-	color: #fefefe;
+	color: rgb(224, 222, 218);
   margin: 0 8px;
   display: inline;
 }
