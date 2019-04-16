@@ -18,7 +18,8 @@ nav {
 footer {
   padding: 10px 25px;
   background-color: #9b363a;
-  width: 100%;
+	width: 100%;
+	margin-top: 5px;
 }
 
 h2 {
