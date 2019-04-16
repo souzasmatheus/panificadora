@@ -26,6 +26,11 @@ h2 {
 	color: rgb(224, 222, 218);
 }
 
+p {
+	font-size: 18px;
+	color: rgb(224, 222, 218);
+}
+
 .logo {
   width: 25%;
   display: inline;
