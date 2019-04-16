@@ -1,6 +1,6 @@
 body {
-	background-color: #9b363a;
-	overflow-x: hidden;
+  background-color: #9b363a;
+  overflow-x: hidden;
 }
 
 header {
@@ -22,13 +22,21 @@ footer {
 }
 
 h2 {
-	margin: 0;
-	color: rgb(224, 222, 218);
+  margin: 0;
+  color: rgb(224, 222, 218);
 }
 
 p {
-	font-size: 18px;
-	color: rgb(224, 222, 218);
+  font-size: 18px;
+  color: rgb(224, 222, 218);
+}
+
+form h2 {
+  font-size: 26px;
+}
+
+h2 span {
+  font-size: 19px;
 }
 
 .logo {
@@ -50,8 +58,8 @@ p {
 }
 
 .nav-expander {
-	font-size: 20px;
-	color: rgb(224, 222, 218);
+  font-size: 20px;
+  color: rgb(224, 222, 218);
   margin: 0 8px;
   display: inline;
 }
@@ -61,14 +69,22 @@ p {
 }
 
 .info {
-	color: rgb(252, 203, 88);
+  color: #fccb58;
 }
 
 .main-article {
-	background-image: linear-gradient(#F3BF83, #9B363A);
-	padding: 25px 25px;
+  background-image: linear-gradient(#f3bf83, #9b363a);
+  padding: 25px 25px 0px 25px;
 }
 
 .main-img {
-	width: 100%;
+  width: 100%;
+}
+
+.form-article {
+  margin: 0 25px;
+  border: solid 2px #fccb58;
+  border-radius: 3px;
+  text-align: center;
+  padding: 5px;
 }
