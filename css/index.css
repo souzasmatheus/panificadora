@@ -23,20 +23,32 @@ footer {
 
 h2 {
   margin: 0;
-  color: rgb(224, 222, 218);
+  color: #e0deda;
 }
 
 p {
   font-size: 18px;
-  color: rgb(224, 222, 218);
-}
-
-form h2 {
-  font-size: 26px;
+  color: #e0deda;
 }
 
 h2 span {
   font-size: 19px;
+}
+
+label {
+  color: #e0deda;
+	font-size: 19px;
+}
+
+input {
+	margin: 5px 0;
+	width: 100%;
+	border-radius: 4px;
+}
+
+form {
+	text-align: start;
+	margin: 3px;
 }
 
 .logo {
@@ -45,7 +57,7 @@ h2 span {
 }
 
 .nav-items {
-  color: rgb(224, 222, 218);
+  color: #e0deda;
   text-decoration: none;
   font-size: 16px;
   margin: 0 4px;
@@ -59,7 +71,7 @@ h2 span {
 
 .nav-expander {
   font-size: 20px;
-  color: rgb(224, 222, 218);
+  color: #e0deda;
   margin: 0 8px;
   display: inline;
 }
@@ -87,4 +99,8 @@ h2 span {
   border-radius: 3px;
   text-align: center;
   padding: 5px;
+}
+
+.form-article h2 {
+  font-size: 26px;
 }
