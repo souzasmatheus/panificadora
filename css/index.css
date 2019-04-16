@@ -1,5 +1,6 @@
 body {
-  background-color: #f3bf83;
+	background-color: #9b363a;
+	overflow-x: hidden;
 }
 
 header {
@@ -17,9 +18,11 @@ nav {
 footer {
   padding: 10px 25px;
   background-color: #9b363a;
-  position: fixed;
-  bottom: 0;
   width: 100%;
+}
+
+h2 {
+	margin: 0;
 }
 
 .logo {
@@ -53,4 +56,9 @@ footer {
 
 .info {
 	color: rgb(252, 203, 88);
+}
+
+.article {
+	background-image: linear-gradient(#F3BF83, #9B363A);
+	padding: 25px 25px;
 }
