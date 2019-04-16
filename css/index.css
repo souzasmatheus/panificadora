@@ -37,18 +37,28 @@ h2 span {
 
 label {
   color: #e0deda;
-	font-size: 19px;
+  font-size: 19px;
 }
 
 input {
-	margin: 5px 0;
-	width: 100%;
-	border-radius: 4px;
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 4px;
+}
+
+input[type='submit'] {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 50%;
+  background-color: white;
+  border-color: white;
+  padding: 3px;
+  color: #9b363a;
 }
 
 form {
-	text-align: start;
-	margin: 3px;
+  text-align: start;
+  margin: 3px;
 }
 
 .logo {
