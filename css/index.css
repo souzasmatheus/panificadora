@@ -102,9 +102,14 @@ form {
 }
 
 .main-img {
-  width: 100%;
+  width: 180%;
   opacity: 0.4;
-  margin-left: -20%;
+  margin-left: -40%;
+}
+
+.img-section {
+  width: 50%;
+  float: left;
 }
 
 .form-article {
