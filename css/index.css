@@ -102,6 +102,8 @@ form {
 
 .main-img {
   width: 100%;
+  opacity: 0.4;
+  margin-left: -20%;
 }
 
 .form-article {
