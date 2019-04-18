@@ -98,6 +98,7 @@ form {
 .main-article {
   background-image: linear-gradient(#f3bf83, #9b363a);
   padding: 25px 25px 0px 25px;
+  height: 100vh;
 }
 
 .main-img {
