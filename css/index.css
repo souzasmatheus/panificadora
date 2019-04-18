@@ -103,15 +103,14 @@ form {
 }
 
 .form-article {
-  margin: 0 25px;
-  border: solid 2px #fccb58;
-  border-radius: 3px;
+  padding: 45px 25px;
+  background-color: #f3bf83;
   text-align: center;
-  padding: 5px;
 }
 
 .form-article h2 {
   font-size: 26px;
+  margin: 0;
 }
 
 .main-text {
