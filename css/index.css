@@ -150,11 +150,40 @@ form {
 
 .comment-container {
   padding: 25px 25px;
+  display: flex;
+  align-items: center;
 }
 
 .commenter-pic {
-  background-color: #9b363a;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
+  overflow: hidden;
+}
+
+.commenter-pic img {
+  width: 100%;
+}
+
+.comment {
+  background-color: #ffe68f;
+  margin: auto;
+  padding: 10px;
+  border-radius: 4px;
+  width: 55%;
+}
+
+.comment p {
+  margin: 0;
+  font-size: 20px;
+  color: rgb(128, 128, 128);
+}
+
+.comment b {
+  text-transform: uppercase;
+  color: black;
+}
+
+.reverse {
+  flex-direction: row-reverse;
 }
