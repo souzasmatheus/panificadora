@@ -18,8 +18,8 @@ nav {
 footer {
   padding: 10px 25px;
   background-color: #9b363a;
-	width: 100%;
-	margin-top: 5px;
+  width: 100%;
+  margin-top: 5px;
 }
 
 label {
@@ -124,9 +124,26 @@ form {
   width: 100%;
   height: 200px;
   overflow: hidden;
-  margin-top: 25%
+  margin-top: 25%;
 }
 
 .secondary-img img {
   max-width: 100%;
+}
+
+.comments-article {
+  text-align: center;
+}
+
+.comments-article h3 {
+  margin: 45px 0;
+  color: #ffe68f;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.comments-text {
+  padding: 10px 14px;
+  background-image: url('https://previews.123rf.com/images/teploleta/teploleta1507/teploleta150700283/42280479-hand-drawn-bakery-seamless-pattern-background-.jpg');
+  background-size: 100%;
 }
