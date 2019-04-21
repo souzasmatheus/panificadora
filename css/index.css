@@ -83,10 +83,6 @@ article h3 {
   transform: rotate(-90deg);
 }
 
-.info {
-  color: #fccb58;
-}
-
 .main-article {
   background-image: linear-gradient(#f3bf83, #9b363a);
   padding: 25px 25px 0px 25px;
@@ -213,4 +209,9 @@ article h3 {
 .social-media i {
   color: #ffe68f;
   font-size: 40px;
+}
+
+.contact address {
+  margin: 0 25px 45px 25px;
+  color: #ffe68f;
 }
