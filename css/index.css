@@ -47,6 +47,13 @@ form {
   margin: 3px;
 }
 
+article h3 {
+  margin: 45px 25px;
+  color: #ffe68f;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
 .logo {
   width: 25%;
   display: inline;
@@ -135,13 +142,6 @@ form {
   text-align: center;
 }
 
-.comments-article h3 {
-  margin: 45px 25px;
-  color: #ffe68f;
-  font-size: 25px;
-  text-transform: uppercase;
-}
-
 .comments-text {
   padding: 10px 14px;
   background-image: url('https://previews.123rf.com/images/teploleta/teploleta1507/teploleta150700283/42280479-hand-drawn-bakery-seamless-pattern-background-.jpg');
@@ -186,4 +186,25 @@ form {
 
 .reverse {
   flex-direction: row-reverse;
+}
+
+.social-media {
+  display: flex;
+  padding: 0 25px;
+}
+
+.social-media div {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #ffe68f;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media i {
+  color: #ffe68f;
+  font-size: 40px;
 }
