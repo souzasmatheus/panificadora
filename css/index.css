@@ -227,7 +227,7 @@ article h3 {
 
 /* Media Queries */
 
-/* Tablets and likewise devices */
+/* Bigger than regular phones, smaller than tablets */
 @media screen and (min-width: 540px) {
   .main-text h2 {
     font-size: 2.5em;
