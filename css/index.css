@@ -252,12 +252,31 @@ article h3 {
 }
 
 /* Tablets and likewise devices */
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 760px) and (min-height: 1000px) {
   .logo {
     width: 18%;
   }
 
   .nav-items {
     font-size: 1.4em;
+  }
+
+  .img-section {
+    width: 60%;
+  }
+
+  .main-img {
+    width: 180%;
+  }
+
+  .main-text h2 {
+    font-size: 3em;
+    margin: default;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+  }
+
+  .main-text p {
+    font-size: 2em;
   }
 }
