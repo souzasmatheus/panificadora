@@ -247,6 +247,17 @@ article h3 {
   }
 
   .social-media {
-    padding: 0 100px;  
+    padding: 0 100px;
+  }
+}
+
+/* Tablets and likewise devices */
+@media screen and (min-width: 760px) {
+  .logo {
+    width: 18%;
+  }
+
+  .nav-items {
+    font-size: 1.4em;
   }
 }
