@@ -279,4 +279,17 @@ article h3 {
   .main-text p {
     font-size: 2em;
   }
+
+  .form-article h2 {
+    font-size: 2.4em;
+  }
+
+  label {
+    font-size: 2em;
+  }
+
+  input {
+    padding: 5px;
+    font-size: 2em;
+  }
 }
