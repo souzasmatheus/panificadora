@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #9b363a;
   overflow-x: hidden;
@@ -219,4 +223,29 @@ article h3 {
 .contact address {
   margin: 0 25px 45px 25px;
   color: #ffe68f;
+}
+
+/* Media Queries */
+
+/* Tablets and likewise devices */
+@media screen and (min-width: 540px) {
+  .main-text h2 {
+    font-size: 3em;
+  }
+
+  .main-text p {
+    font-size: 1.5em;
+  }
+
+  .secondary-img {
+    margin-top: 0;
+  }
+
+  .form-article h2 {
+    font-size: 1.8em;
+  }
+
+  .social-media {
+    padding: 0 100px;  
+  }
 }
