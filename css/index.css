@@ -292,4 +292,17 @@ article h3 {
     padding: 5px;
     font-size: 2em;
   }
+
+  .comments-article h3 {
+    font-size: 2.4em;
+  }
+
+  .commenter-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .comment p {
+    font-size: 25px;
+  }
 }
