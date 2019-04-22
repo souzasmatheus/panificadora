@@ -384,4 +384,8 @@ article h3 {
   .contact address {
     margin: 45px 25px 45px 25px;
   }
+
+  footer {
+    padding: 5px 150px;
+  }
 }
