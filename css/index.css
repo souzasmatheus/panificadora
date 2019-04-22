@@ -327,4 +327,25 @@ article h3 {
   .nav-expander {
     display: none;
   }
+
+  .main-article {
+    padding: 25px 150px 0 150px;
+  }
+
+  .img-section {
+    max-width: 35%;
+  }
+
+  .main-text h2 {
+    font-size: 4em;
+  }
+
+  .main-text p {
+    font-size: 1.8em;
+  }
+
+  .secondary-img {
+    height: 20vh;
+    text-align: center;
+  }
 }
