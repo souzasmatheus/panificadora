@@ -225,6 +225,10 @@ article h3 {
   color: #ffe68f;
 }
 
+.arrow {
+  display: none;
+}
+
 /* Media Queries */
 
 /* Bigger than regular phones, smaller than tablets */
@@ -355,7 +359,9 @@ article h3 {
 
   .comments-text {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
   }
 
   .comment-container {
@@ -365,6 +371,14 @@ article h3 {
 
   .comment-container:nth-of-type(2) {
     flex-direction: row;
+  }
+
+  .arrow {
+    display: inline;
+  }
+
+  .hide {
+    display: none !important;
   }
 
   .contact {
