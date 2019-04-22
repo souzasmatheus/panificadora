@@ -305,4 +305,12 @@ article h3 {
   .comment p {
     font-size: 25px;
   }
+
+  .contact h3 {
+    font-size: 2.2em;
+  }
+
+  address {
+    font-size: 1.3em;
+  }
 }
