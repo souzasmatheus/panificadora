@@ -314,3 +314,17 @@ article h3 {
     font-size: 1.3em;
   }
 }
+
+@media screen and (min-width: 880px) {
+  header {
+    padding: 10px 150px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .nav-expander {
+    display: none;
+  }
+}
