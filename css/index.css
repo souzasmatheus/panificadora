@@ -366,4 +366,22 @@ article h3 {
   .comment-container:nth-of-type(2) {
     flex-direction: row;
   }
+
+  .contact {
+    padding: 0 125px;
+  }
+
+  .social-media {
+    display: inline-flex;
+    width: calc(50% - 2px);
+    padding: 0;
+  }
+
+  .social-media:nth-of-type(2) {
+    margin: 0;
+  }
+
+  .contact address {
+    margin: 45px 25px 45px 25px;
+  }
 }
