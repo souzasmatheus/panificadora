@@ -375,6 +375,9 @@ article h3 {
 
   .arrow {
     display: inline;
+    font-size: 2.8em;
+    color: black;
+    cursor: pointer;
   }
 
   .hide {
