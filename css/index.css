@@ -367,6 +367,7 @@ article h3 {
   .comment-container {
     width: 30%;
     display: inline-flex;
+    display: none;
   }
 
   .comment-container:nth-of-type(2) {
@@ -378,10 +379,6 @@ article h3 {
     font-size: 2.8em;
     color: black;
     cursor: pointer;
-  }
-
-  .hide {
-    display: none !important;
   }
 
   .contact {
@@ -404,5 +401,9 @@ article h3 {
 
   footer {
     padding: 5px 150px;
+  }
+
+  .show {
+    display: inline-flex;
   }
 }
