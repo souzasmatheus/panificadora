@@ -28,6 +28,11 @@ footer {
   padding: 5px 25px;
 }
 
+footer div {
+  width: 100%;
+  text-align: center;
+}
+
 footer p {
   margin: 0;
   color: #9b363a;
