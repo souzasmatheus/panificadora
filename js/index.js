@@ -161,6 +161,8 @@ window.addEventListener('resize', () => {
   checkSize();
 });
 
+checkSize();
+
 // Navbar Animation
 
 // Variables & Constants
