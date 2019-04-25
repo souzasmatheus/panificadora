@@ -357,6 +357,10 @@ nav div {
     width: 100px;
   }
 
+  .nav-items {
+    display: inline;
+  }
+
   .nav-expander {
     display: none;
   }
