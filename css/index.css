@@ -51,7 +51,7 @@ input[type='submit'] {
   margin-top: 10px;
   margin-left: 50%;
   background-color: white;
-  height: 2em;
+  cursor: pointer;
 }
 
 form {
