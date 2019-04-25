@@ -15,6 +15,9 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 nav {
@@ -102,7 +105,7 @@ article h3 {
 
 .main-article {
   background-image: linear-gradient(#f3bf83, #9b363a);
-  padding: 25px 25px 0px 25px;
+  padding: 15% 25px 0px 25px;
   height: 100vh;
 }
 
@@ -271,6 +274,10 @@ article h3 {
 
 /* Tablets and likewise devices */
 @media screen and (min-width: 760px) and (min-height: 1000px) {
+  .main-article {
+    padding: 10% 25px 0px 25px;
+  }
+
   .logo {
     width: 18%;
   }
@@ -355,7 +362,7 @@ article h3 {
   }
 
   .main-article {
-    padding: 50px 150px 0 150px;
+    padding: 15vh 150px 0 150px;
     margin-bottom: 50px;
   }
 
