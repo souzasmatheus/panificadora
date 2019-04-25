@@ -368,12 +368,7 @@ article h3 {
   }
 
   .secondary-img {
-    height: 20vh;
-    text-align: center;
-  }
-
-  .form-article {
-    margin: 0 300px;
+    display: none;
   }
 
   .comments-text {
@@ -401,10 +396,6 @@ article h3 {
     cursor: pointer;
   }
 
-  .contact {
-    padding: 0 125px;
-  }
-
   .social-media {
     display: inline-flex;
     width: calc(50% - 2px);
@@ -425,5 +416,21 @@ article h3 {
 
   .show {
     display: inline-flex;
+  }
+
+  .uniter {
+    display: flex;
+    padding: 50px 150px;
+    align-items: center;
+  }
+
+  .contact,
+  .form-article {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  .form-article {
+    border-radius: 5px;
   }
 }
