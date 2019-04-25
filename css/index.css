@@ -221,6 +221,12 @@ article h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffe68f;
+}
+
+.social-media div:hover {
+  width: 70px;
+  height: 70px;
 }
 
 .social-media i {
