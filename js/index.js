@@ -160,3 +160,39 @@ window.addEventListener('resize', () => {
   clearInterval(interval);
   checkSize();
 });
+
+// Navbar Animation
+
+// Variables & Constants
+const expander = document.querySelector('#nav-expander');
+const navItemsDiv = document.querySelector('nav div');
+const navItems = document.querySelectorAll('.nav-items');
+
+let clicksCount = 0;
+
+// Helper functions
+const isEven = num => {
+  return num % 2 === 0 ? true : false;
+};
+
+// Specific Functions
+expander.addEventListener('click', () => {
+  clicksCount++;
+  if (!isEven(clicksCount)) {
+    navItems.forEach(navItem => {
+      navItem.classList.add('show');
+    });
+    navItemsDiv.classList.add('slideInRight');
+    setTimeout(() => {
+      navItemsDiv.classList.remove('slideInRight');
+    }, 1000);
+  } else {
+    navItemsDiv.classList.add('slideOutRight');
+    setTimeout(() => {
+      navItems.forEach(navItem => {
+        navItem.classList.remove('show');
+      });
+      navItemsDiv.classList.remove('slideOutRight');
+    }, 1000);
+  }
+});

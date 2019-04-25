@@ -79,6 +79,10 @@ article h3 {
   display: inline;
 }
 
+nav div {
+  display: inline-block;
+}
+
 .nav-items {
   color: #e0deda;
   text-decoration: none;
@@ -97,10 +101,6 @@ article h3 {
   color: #e0deda;
   margin: 0 8px;
   display: inline;
-}
-
-.closed {
-  transform: rotate(-90deg);
 }
 
 .main-article {
@@ -246,10 +246,6 @@ article h3 {
   display: none;
 }
 
-.inline {
-  display: inline;
-}
-
 /* Media Queries */
 
 /* Bigger than regular phones, smaller than tablets */
@@ -379,11 +375,11 @@ article h3 {
   }
 
   .main-text h2 {
-    font-size: 4.3em;
+    font-size: 4.5em;
   }
 
   .main-text p {
-    font-size: 2.2em;
+    font-size: 2.6em;
   }
 
   .secondary-img {
