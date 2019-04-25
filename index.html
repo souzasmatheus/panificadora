@@ -46,15 +46,19 @@
       />
 
       <nav>
-        <a href="#" class="nav-items show">Nosso pão</a>
-        <a href="#" class="nav-items show">Contato</a>
+        <div class="inline">
+          <a href="#main" class="nav-items show">Início</a>
+          <a href="#comments" class="nav-items show">Depoimentos</a>
+          <a href="#contact" class="nav-items show">Contato</a>
+        </div>
+
         <a href="#" class="nav-items nav-expander">
           <i class="fas fa-caret-left closed" id="nav-expander"></i>
         </a>
       </nav>
     </header>
 
-    <article class="main-article">
+    <article class="main-article" id="main">
       <section class="img-section">
         <img
           class="main-img"
@@ -84,7 +88,7 @@
       </section>
     </article>
 
-    <article class="comments-article">
+    <article class="comments-article" id="comments">
       <h3>Saiba de quem realmente provou</h3>
       <section class="comments-text">
         <div class="arrow" id="arrow-left">
@@ -140,7 +144,7 @@
       </section>
     </article>
 
-    <div class="uniter">
+    <div class="uniter" id="contact">
       <article class="form-article">
         <section>
           <h2>

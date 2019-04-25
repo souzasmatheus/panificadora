@@ -246,6 +246,10 @@ article h3 {
   display: none;
 }
 
+.inline {
+  display: inline;
+}
+
 /* Media Queries */
 
 /* Bigger than regular phones, smaller than tablets */
