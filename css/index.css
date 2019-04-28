@@ -3,6 +3,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* Regular CSS */
 
 * {
@@ -196,12 +200,13 @@ nav div {
 
 .comment p {
   margin: 0;
-  font-size: 20px;
+  font-size: 1em;
   color: rgb(128, 128, 128);
+  line-height: 1.5em;
 }
 
 .comment b {
-  text-transform: uppercase;
+  font-size: 1.3em;
   color: black;
 }
 
