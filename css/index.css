@@ -110,7 +110,7 @@ nav div {
 }
 
 .main-img {
-  width: 180%;
+  width: 185%;
   opacity: 0.4;
   margin-left: -40%;
 }
@@ -249,15 +249,6 @@ nav div {
 .buttons {
   display: flex;
 }
-
-/*.call-button {
-  margin: 0 10px;
-  height: 3em;
-}
-
-.call-button {
-  background-color: #ffad33;
-}*/
 
 .call-button {
   text-transform: uppercase;
