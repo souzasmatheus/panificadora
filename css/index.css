@@ -377,6 +377,11 @@ nav div {
 
   .nav-items {
     display: inline;
+    margin: 0 1.3em;
+  }
+
+  .nav-items:hover {
+    font-weight: 600;
   }
 
   .nav-expander {
