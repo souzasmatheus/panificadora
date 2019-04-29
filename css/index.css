@@ -408,6 +408,14 @@ nav div {
     font-size: 1.5em;
   }
 
+  .main-text p:first-of-type {
+    margin-top: 2em;
+  }
+
+  .main-text p:last-of-type {
+    margin-bottom: 2.3em;
+  }
+
   .secondary-img {
     display: none;
   }
@@ -480,27 +488,27 @@ nav div {
     cursor: pointer;
     display: inline;
   }
-  
+
   .call-button:first-of-type {
     background: #7f191d;
     color: #ffe68f;
   }
-  
+
   .call-button:first-of-type:hover {
     background: #ffe68f;
     color: #7f191d;
   }
-  
+
   .call-button:last-of-type {
     background: #ffe68f;
     color: #7f191d;
   }
-  
+
   .call-button:last-of-type:hover {
     background: #7f191d;
     color: #ffe68f;
   }
-  
+
   /*
   
     *** Centralizar o texto no botão
@@ -510,8 +518,8 @@ nav div {
     *** Diminuir o border-radius
     *** Um botão amarelo, o outro vermelho
     *** Inverte as cores on hover
-    Centralizer o texto na section, dando margem top (contra o heading) e bottom (contra os botões)
-    Centralizar tudo na section (align-items: center ???)
+    *** Centralizer o texto na section, dando margem top (contra o heading) e bottom (contra os botões)
+    *** Centralizar tudo na section (align-items: center ???)
   
     Aumentar espaço entre itens do menu
     Colocar efeito on hover (cor amarelada ???)
